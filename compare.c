@@ -1,24 +1,12 @@
 #include <stdio.h>
-#include "cs50.h"
-
-/*
-gcc -o file file.c cs50.c
-.\file
-*/
+#include <cs50.h>
+#include <string.h>
 
 int main (void) 
 {
-    int x = get_int("What's x? ");
-    int y = get_int("What's y? ");
+    string s = get_string("s: ");
+    string t = get_string("t: ");
 
-    if (x < y) 
-    {
-        printf("x is less than y\n");
-    } else if (x > y) 
-    {
-        printf("x is greater than y\n");
-    } else 
-    {
-        printf("x is equal to y\n");
-    }
+    printf("%p\n", &s);
+    printf("%p\n", &t);
 }
