@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/rockyshi/Code/Harvard-CS50/list'
-relocations:     []
-...
